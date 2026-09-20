@@ -1,0 +1,70 @@
+{
+  "panel": {
+    "title": "MK2 CUSTOMS TICKET PANEL ",
+    "description": "If you need any assistance, please click the button corresponding to the type of ticket you wish to open. Our support team is here to help with any issues or questions you may have.",
+    "color": "#24b4f2",
+    "imageUrl": "https://cdn.discordapp.com/attachments/1550877437733109816/1550877671808962560/mk2_banner.png?ex=6aafeee2&is=6aae9d62&hm=c563fbad8920da28209a5856e09453d340cd73e387b69c54131fdbeeb6f8e9bf&",
+    "footerText": ""
+  },
+
+  "defaultSupportRoleIds": ["1550743008146755584"],
+  "maxOpenTicketsPerUser": 2,
+  "deleteDelaySeconds": 5,
+
+  "categories": [
+    {
+      "id": "MK2_SERVER_DEVELOPMENT",
+      "label": "MK2 SERVER DEVELOPMENT HELP",
+      "emoji": "🧠",
+      "style": "Success",
+      "categoryChannelId": "1550869861620514907",
+      "supportRoleIds": ["1550742997992349776"],
+      "welcomeMessage": "Thank you for contacting mk2 Support A developer will be here soon to assist you"
+    },
+    {
+      "id": "MK2_SCRIPTS",
+      "label": "MK2 CUSTOMS SCRIPT DEVELOPMENT",
+      "emoji": "🔀",
+      "style": "Secondary",
+      "categoryChannelId": "1550884700288057415",
+      "supportRoleIds": ["1550742997992349776"],
+      "welcomeMessage": "Please describe the server you are transferring/merging from, along with positions held there."
+    },
+    {
+      "id": "MK2_CUSTOMS_MLO",
+      "label": "MK2 CUSTOMS MLO TICKETS",
+      "emoji": "⚠️",
+      "style": "Danger",
+      "categoryChannelId": "1550884700288057415",
+      "supportRoleIds": ["1550742997992349776"],
+      "welcomeMessage": "Please describe who you are reporting and why, along with any proof you have collected."
+    },
+    {
+      "id": "dev",
+      "label": "Dev",
+      "emoji": "🛠️",
+      "style": "Secondary",
+      "categoryChannelId": "1550885624419196948",
+      "supportRoleIds": ["1550743008146755584"],
+      "welcomeMessage": "Please describe the technical issue you are experiencing."
+    },
+    {
+      "id": "MK2_CUSTOMS_GUNS",
+      "label": "MK2 CUSTOMS GUNS TICKETS",
+      "emoji": "🔫",
+      "style": "Secondary",
+      "categoryChannelId": "1548682600397406409",
+      "supportRoleIds": ["1550742997992349776"],
+      "welcomeMessage": "Please describe the issue that requires management attention."
+    },
+    {
+      "id": "store",
+      "label": "Store Support",
+      "emoji": "💸",
+      "style": "Secondary",
+      "categoryChannelId": "1550886104356618271",
+      "supportRoleIds": ["1550743008146755584"],
+      "welcomeMessage": "Thank you for contacting store support. Please describe your order issue below."
+    }
+  ]
+}
